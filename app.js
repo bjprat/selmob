@@ -10,7 +10,7 @@ var config = {
 	"USER"		: "",
 	"PASS"		: "",
 	"HOST"		: "ec2-54-172-205-195.compute-1.amazonaws.com",
-	"PORT"		: "27017"
+	"PORT"		: "27017",
 	"DATABASE" 	: "test" 
 };
 
