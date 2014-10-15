@@ -14,7 +14,7 @@ var config = {
 	"DATABASE" 	: "test" 
 };
 
-var dbPath = "RethinkDB://"+ config.USER + ":" + 
+var dbPath = "rethinkdb://"+ config.USER + ":" + 
 	config.PASS + "@" +
 	config.HOST + ":" +
 	config.PORT + "/" +
