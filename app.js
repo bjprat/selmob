@@ -39,7 +39,7 @@ mongoose.connection.once('open', function(){
 	});
 });
 
-app,use(function(err, req, res, next){
+app.use(function(err, req, res, next){
 	if (req.xhr) {
 		res.send(500, 'Somthing went wrong!');
 	}
