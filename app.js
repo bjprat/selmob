@@ -14,7 +14,7 @@ var config = {
 	"DATABASE" 	: "test" 
 };
 
-var dbPath = "rethinkdb://"+ config.USER + ":" + 
+var dbPath = "mongodb://"+ config.USER + ":" + 
 	config.PASS + "@" +
 	config.HOST + ":" +
 	config.PORT + "/" +
