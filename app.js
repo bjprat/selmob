@@ -11,10 +11,10 @@ var config = {
 	"PASS"		: "",
 	"HOST"		: "ec2-54-172-205-195.compute-1.amazonaws.com",
 	"PORT"		: "27017"
-	"DATABASE" 	: "my_example" 
+	"DATABASE" 	: "test" 
 };
 
-var dbPath = "RethinkDB://"+ config.USER + ":" + 
+var dbPath = "rethinkdb://"+ config.USER + ":" + 
 	config.PASS + "@" +
 	config.HOST + ":" +
 	config.PORT + "/" +
